@@ -1,0 +1,90 @@
+body {
+    background-image: url("../images/background.jpg")
+}
+
+.header {
+    font-size: 150%;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    background-color: green;
+    width: 30%;
+    margin: 20px;
+    animation-name: headmove;
+    animation-duration: 1s;
+}
+
+.howToPlay {
+    color: green;
+    background-color: beige;
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+}
+
+.numberToMatch {
+    background-color: orange;
+    margin: 20px;
+    width: 50%;
+    padding: 20px;
+    animation-name: numToMatc;
+    animation-duration: 1s;
+}
+
+#targetScore {
+    font-size:150%;
+    font-weight: bold;
+}
+
+#numberWins {
+    font-weight: bold;
+}
+
+#numberLosses {
+    font-weight: bold;
+}
+
+.winsAndLosses {
+    background-color: rgb(235, 191, 191);
+    margin: 20px;
+    width: 50%;
+    padding: 20px;
+}
+
+.gems {
+    margin: 20px;
+    width: 50%;
+    padding: 20px;
+}
+
+.userTotal {
+    font-size: 110%;
+    background-color: grey;
+    color: white;
+    margin: 20px;
+    width: 50%;
+    padding: 20px;
+}
+
+
+
+@keyframes headmove {
+    0% {
+        padding: 10px 0px 0px 500px;
+        color: black;
+    }
+    100% {
+        padding: 10px 20px 10px 20px;
+        color:goldenrod;
+    }
+}
+
+@keyframes numToMatc {
+    0% {
+        padding: 10px 0px 0px 500px;
+        color: black;
+    }
+    100% {
+        padding: 20px;
+        color:goldenrod;
+    }
+}
